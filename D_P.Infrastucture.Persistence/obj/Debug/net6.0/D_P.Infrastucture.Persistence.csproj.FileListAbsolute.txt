@@ -1,0 +1,17 @@
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\bin\Debug\net6.0\D_P.Infrastucture.Persistence.deps.json
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\bin\Debug\net6.0\D_P.Infrastucture.Persistence.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\bin\Debug\net6.0\D_P.Infrastucture.Persistence.pdb
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\bin\Debug\net6.0\D_B.Core.Domain.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\bin\Debug\net6.0\D_P.Core.Application.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\bin\Debug\net6.0\D_B.Core.Domain.pdb
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\bin\Debug\net6.0\D_P.Core.Application.pdb
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\obj\Debug\net6.0\D_P.Infrastucture.Persistence.csproj.AssemblyReference.cache
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\obj\Debug\net6.0\D_P.Infrastucture.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\obj\Debug\net6.0\D_P.Infrastucture.Persistence.AssemblyInfoInputs.cache
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\obj\Debug\net6.0\D_P.Infrastucture.Persistence.AssemblyInfo.cs
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\obj\Debug\net6.0\D_P.Infrastucture.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\obj\Debug\net6.0\D_P.Infrastucture.Persistence.csproj.CopyComplete
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\obj\Debug\net6.0\D_P.Infrastucture.Persistence.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\obj\Debug\net6.0\refint\D_P.Infrastucture.Persistence.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\obj\Debug\net6.0\D_P.Infrastucture.Persistence.pdb
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Infrastucture.Persistence\obj\Debug\net6.0\ref\D_P.Infrastucture.Persistence.dll

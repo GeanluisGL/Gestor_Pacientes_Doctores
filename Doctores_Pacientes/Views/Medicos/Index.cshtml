@@ -1,0 +1,84 @@
+﻿@using D_P.Core.Application.VieiwModels.Medicos;
+@model List<MedicosViewmodel>
+@{
+    int i = 0;
+    ViewData["Title"] = "Medicos";
+}
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Doctores_Pacientes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+            @*<div class="position-relative">*@
+            @*<div class="top-50 start-50 translate-middle">*@
+               @* <div class="" style="  margin:auto; margin-top:auto">*@
+                   <br>
+                    <div class="col-4 offset-8">
+                        <a asp-action="Save" asp-controller="Medicos" class="btn btn-outline-success">Añadir una nuevo Medico</a>
+                    </div>
+            <br />
+
+            <div class="row">
+                @if (Model == null || Model.Count == 0)
+                {
+                    <h3>No hay Medicos agregados</h3>
+                }
+                else
+                {
+                    <div class="col-10 offset-1 ">
+                        <div class="card">
+                            <div class="card-header bg-warning text-light">
+                                <h3 class="text-center">Paciente</h3>
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-responsive">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Fotografia</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Correo</th>
+                                            <th scope="col">Telefono</th>
+                                            <th scope="col">Cedula</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            i = 1;
+                                        }
+                                        @foreach (MedicosViewmodel item in Model)
+                                        {
+                                            <tr>
+                                                <th scope="row">@i</th>
+                                                <td>@item.FotoFileUrl</td>
+                                                <td>@item.Nombre</td>
+                                                <td>@item.Apellido</td>
+                                                <td>@item.correo</td>
+                                                <td>@item.Telefono</td>
+                                                <td>@item.Cedula</td>
+                                                <td>
+                                                    <a asp-action="Edit" asp-controller="Medicos" asp-route-id="@item.Id" class="btn btn-outline-warning">Editar</a>
+                                                    <a asp-action="Delete" asp-controller="Medicos" asp-route-id="@item.Id" class="btn btn-outline-danger">Eliminar</a>
+                                                </td>
+
+                                            </tr>
+
+                                            i++;
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+            @*</div>*@

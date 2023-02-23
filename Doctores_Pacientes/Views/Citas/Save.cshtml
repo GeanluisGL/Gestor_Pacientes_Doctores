@@ -1,0 +1,87 @@
+﻿@using D_P.Core.Application.VieiwModels.Citas;
+@model D_P.Core.Application.VieiwModels.Citas.SaveCitaViewModel;
+@{
+    ViewData["Title"] = "Citas";
+      bool editMode = Model.Id == 0 ? false : true;
+}
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Doctores_Pacientes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                  
+                 
+                    </div>
+                </div>
+    </nav>
+
+            <br />
+
+       
+@*   @if (Model.pacientes == null || Model.pacientes.Count == 0)
+                    {
+    <h4>Debes crear pacientes y pruebas antes</h4>
+    <a asp-controller="ResultaL" asp-action="Index" class="btn btn-warning">Volver atras</a>
+    }
+    else
+        {*@
+            <div class="card">
+                <div class="card-header bg-danger text-light">
+                    <h3 class="text-center">@(editMode ? $"Editando Cita" : "Agregando Cita")</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Citas" asp-action="@(editMode ? "Edit" : "Save")">
+
+                    
+                        <div class="mb-3">
+                            <label asp-for="NombrePacienteID" class="form-label">Paciente: </label>
+                            <select asp-for="NombrePacienteID" asp-items="@(new SelectList(Model.pacientes,"Id","Nombre"))" class="form-select">
+                                <option >Seleccione una opcion</option>
+                            </select>
+                            <span asp-validation-for="NombrePacienteID" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="NombreDoctorID" class="form-label">Medico: </label>
+                                <select asp-for="NombreDoctorID" asp-items="@(new SelectList(Model.medicos,"Id","Nombre"))" class="form-select">
+                                <option >Seleccione una opcion</option>
+                            </select>
+                            <span asp-validation-for="NombreDoctorID" class="text-danger"></span>
+                        </div>
+
+                          <div class="mb-3">
+                            <label asp-for="Estado" class="form-label">Estado: </label>
+                                <select asp-for="Estado" class="form-select">
+                                <option value="1">Pendiente Consulta</option>
+                                <option value="2">Pendiente Resultado</option>
+                                <option value="3">Completa</option>
+                                </select>
+                                <span asp-validation-for="Estado" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="FechaHora" class="form-label">Fecha y Hora: </label>
+                            <input asp-for="FechaHora" type="datetime-local" required />
+                            <span class="text-red" asp-validation-for="FechaHora"></span>
+                        </div>
+
+                        <div class="mb-3">
+                                <label asp-for="DescripccionEstado" class="form-label">Descripcion: </label>
+                                <input asp-for="DescripccionEstado" type="text" class="form-control" />
+                        </div>
+
+                        <input hidden asp-for="Id" />
+                        <button class="btn btn-primary" type="submit">Guardar</button>
+                        <a asp-controller="Cita" asp-action="Index" class="btn btn-warning">Volver Atras</a>
+                    </form>
+                </div>
+            </div>
+
+        @*}*@
+
+        @*</div>
+        </div>*@

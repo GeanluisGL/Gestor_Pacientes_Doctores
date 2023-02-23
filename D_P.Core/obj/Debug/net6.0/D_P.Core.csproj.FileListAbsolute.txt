@@ -1,0 +1,12 @@
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\bin\Debug\net6.0\D_P.Core.deps.json
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\bin\Debug\net6.0\D_P.Core.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\bin\Debug\net6.0\D_P.Core.pdb
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\obj\Debug\net6.0\D_P.Core.csproj.AssemblyReference.cache
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\obj\Debug\net6.0\D_P.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\obj\Debug\net6.0\D_P.Core.AssemblyInfoInputs.cache
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\obj\Debug\net6.0\D_P.Core.AssemblyInfo.cs
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\obj\Debug\net6.0\D_P.Core.csproj.CoreCompileInputs.cache
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\obj\Debug\net6.0\D_P.Core.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\obj\Debug\net6.0\refint\D_P.Core.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\obj\Debug\net6.0\D_P.Core.pdb
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_P.Core\obj\Debug\net6.0\ref\D_P.Core.dll

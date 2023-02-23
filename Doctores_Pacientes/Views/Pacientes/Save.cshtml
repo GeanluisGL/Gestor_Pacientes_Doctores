@@ -1,0 +1,103 @@
+﻿@using D_P.Core.Application.VieiwModels.Pacientes;
+@model D_P.Core.Application.VieiwModels.Pacientes.SavePacientesViewModel;
+@{
+    ViewData["Title"] = "Pacientes";
+      bool editMode = Model.Id == 0 ? false : true;
+}
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Gestor de Doctores & Pacientes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                  
+                    </ul>
+                    </div>
+                </div>
+    </nav>
+
+            <br />
+@*<div class="position-relative">
+<div class="top-50 start-50 translate-middle">
+*@   @* <div class="" style="  margin:auto; margin-top:auto">*@
+       
+        <div class="card">
+            <div class="card-header bg-danger text-light">
+                <h3 class="text-center">@(editMode ? $"Editando a {Model.Nombre}" : "Agregando nuevo Paciente")</h3>
+            </div>
+            <div class="card-body">
+                <form method="post" enctype="multipart/form-data" asp-controller="Pacientes" asp-action="@(editMode ? "Edit" : "Save")">
+                 
+                    <div class="mb-3">
+                        <label asp-for="Nombre" class="form-label">Nombre: </label>
+                        <input asp-for="Nombre" type="text" class="form-control" required />
+                        <span class="text-red" asp-validation-for="Nombre"></span>
+                    </div>
+                 
+                    <div class="mb-3">
+                        <label asp-for="Apellido" class="form-label">Apellido: </label>
+                        <input asp-for="Apellido" type="text" class="form-control" required />
+                        <span class="text-red" asp-validation-for="Apellido"></span>
+                    </div>
+                 
+                    <div class="mb-3">
+                        <label asp-for="Telefono" class="form-label">Telefono: </label>
+                        <input asp-for="Telefono" type="text" class="form-control" required />
+                        <span class="text-red" asp-validation-for="Telefono"></span>
+                    </div>
+                 
+                    <div class="mb-3">
+                        <label asp-for="Direccion" class="form-label">Direccion: </label>
+                        <input asp-for="Direccion" type="text" class="form-control" required />
+                        <span class="text-red" asp-validation-for="Direccion"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Cedula" class="form-label">Cedula: </label>
+                        <input asp-for="Cedula" type="text" class="form-control" required />
+                        <span class="text-red" asp-validation-for="Cedula"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Fecha_Nacimiento" class="form-label">Fecha de Nacimiento: </label>
+                        <input asp-for="Fecha_Nacimiento" type="date" class="form-control" required />
+                        <span class="text-red" asp-validation-for="Fecha_Nacimiento"></span>
+                    </div>
+
+                    <div class="">
+                        <label asp-for="Fumador" class="form-label">Fumador: </label>
+                <input @*asp-for="Fumador"*@ checked="@(Model.Fumador == true ? false : true);" type="checkbox" class="form-check-input"  />
+                        <span class="text-red" asp-validation-for="Fumador"></span>
+                    </div>
+
+                    <div class="">
+                        <label asp-for="alergias" class="form-label">   Alergias: </label>
+                <input @*asp-for="alergias"*@ checked="@(Model.alergias == true  ? false : true);" type="checkbox" class="form-check-input"  />
+                        <span class="text-red" asp-validation-for="alergias"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Ffile" class="form-label">Imagen: </label>
+                        @if(editMode)
+                        {
+                    <input asp-for="Ffile"    class="form-control"/>
+                } else
+                {
+                    <input asp-for="Ffile"    class="form-control" required />
+                                   }
+                <span class="text-red" asp-validation-for="Ffile"></span>
+                    </div>
+
+
+                    <input hidden asp-for="Id" />
+                    <button class="btn btn-primary" type="submit">Guardar</button>
+                    <a asp-controller="Pacientes" asp-action="Index" class="btn btn-warning">Volver Atras</a>
+                </form>
+            </div>
+        </div>
+
+@*</div>
+</div>*@

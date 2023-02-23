@@ -1,0 +1,49 @@
+﻿@using D_P.Core.Application.VieiwModels.PruebaLaboratorio;
+@model D_P.Core.Application.VieiwModels.PruebaLaboratorio.SavePruebasViewModel;
+@{
+    ViewData["Title"] = "Pruebas Laboratorio";
+      bool editMode = Model.Id == 0 ? false : true;
+}
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Doctores_Pacientes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                  
+                    </ul>
+                    </div>
+                </div>
+    </nav>
+
+            <br />
+@*<div class="position-relative">
+<div class="top-50 start-50 translate-middle">
+*@   @* <div class="" style="  margin:auto; margin-top:auto">*@
+       
+        <div class="card">
+            <div class="card-header bg-danger text-light">
+                <h3 class="text-center">@(editMode ? $"Editando prueba {Model.Prueba_Nombre}" : "Agregando Prueba de laboratorio")</h3>
+            </div>
+            <div class="card-body">
+                <form method="post" asp-controller="PruebasL" asp-action="@(editMode ? "Edit" : "Save")">
+                    <div class="mb-3">
+                        <label asp-for="Prueba_Nombre" class="form-label">Nombre: </label>
+                        <input asp-for="Prueba_Nombre" type="text" class="form-control" required />
+                        <span class="text-red" asp-validation-for="Prueba_Nombre"></span>
+                    </div>
+
+                    <input hidden asp-for="Id" />
+                    <button class="btn btn-primary" type="submit">Guardar</button>
+                    <a asp-controller="PruebasL" asp-action="Index" class="btn btn-warning">Volver Atras</a>
+
+
+                </form>
+            </div>
+        </div>
+
+@*</div>
+</div>*@

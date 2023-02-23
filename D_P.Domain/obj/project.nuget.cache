@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "e47NrsYzSRSU/ULjDnn9H1ahN1/fv+0cjbAtTKL7EeB1atbgXvJU0Nd/FK33BEA8cCtB1hnSoJ42SRFxdCvt4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\geanl\\3D Objects\\Yan\\Code\\C7\\Programacion 3\\Semana 4-5\\Doctores y pacientes\\Doctores_Pacientes\\D_P.Domain\\D_P.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\geanl\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\geanl\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\geanl\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\geanl\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

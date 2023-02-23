@@ -1,0 +1,34 @@
+﻿@model D_P.Core.Application.VieiwModels.Pacientes.SavePacientesViewModel;
+@{
+    ViewData["Title"] = "Eliminar Paciente";
+}
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Doctores_Pacientes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-danger text-light">
+                    <h4>Estas seguro de que quieres eliminar a paciente @Model.Nombre ? </h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-action="DeletePost" asp-controller="Pacientes">
+                        <input hidden asp-for="Id" />
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                        <a asp-controller="Pacientes" asp-action="Index" class="btn btn-warning">Cancelar</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>

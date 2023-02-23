@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Doctores_Pacientes
+build_property.RootNamespace = Doctores_Pacientes
+build_property.ProjectDir = C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\Doctores_Pacientes\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\Doctores_Pacientes
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Citas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Citas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Citas/Save.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcU2F2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Medicos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Medicos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Medicos/Save.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xTYXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Pacientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Pacientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Pacientes/Save.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXFNhdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/PruebasL/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJ1ZWJhc0xcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/PruebasL/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJ1ZWJhc0xcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/PruebasL/Save.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJ1ZWJhc0xcU2F2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/ResultaL/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdWx0YUxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/ResultaL/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdWx0YUxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/ResultaL/Save.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdWx0YUxcU2F2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geanl/3D Objects/Yan/Code/C7/Programacion 3/Semana 4-5/Doctores y pacientes/Doctores_Pacientes/Doctores_Pacientes/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tmuuvaynrq

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "OeQiy6+2dLNa/7s4fG1Gdawp/I5pEAFoWkcVFBfImXz0XK0vT64YjNbZFjgHrie6MOG+PR+Q9hxC6t2QnBtT8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\geanl\\3D Objects\\Yan\\Code\\C7\\Programacion 3\\Semana 4-5\\Doctores y pacientes\\Doctores_Pacientes\\D_P.InfrastructurePersistence\\D_P.InfrastructurePersistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\geanl\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\geanl\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\geanl\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

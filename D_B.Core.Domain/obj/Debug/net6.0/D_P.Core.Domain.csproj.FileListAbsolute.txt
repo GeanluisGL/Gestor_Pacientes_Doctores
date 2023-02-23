@@ -1,0 +1,12 @@
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\bin\Debug\net6.0\D_P.Core.Domain.deps.json
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\bin\Debug\net6.0\D_P.Core.Domain.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\bin\Debug\net6.0\D_P.Core.Domain.pdb
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\obj\Debug\net6.0\D_P.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\obj\Debug\net6.0\D_P.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\obj\Debug\net6.0\D_P.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\obj\Debug\net6.0\D_P.Core.Domain.AssemblyInfo.cs
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\obj\Debug\net6.0\D_P.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\obj\Debug\net6.0\D_P.Core.Domain.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\obj\Debug\net6.0\refint\D_P.Core.Domain.dll
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\obj\Debug\net6.0\D_P.Core.Domain.pdb
+C:\Users\geanl\3D Objects\Yan\Code\C7\Programacion 3\Semana 4-5\Doctores y pacientes\Doctores_Pacientes\D_B.Core.Domain\obj\Debug\net6.0\ref\D_P.Core.Domain.dll
